@@ -37,6 +37,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1835fb04-f265-404c-923d-fff4ea33821e"
+      }
+    },
+    "owner": "utepils-expo"
   }
 }
