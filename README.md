@@ -1,7 +1,7 @@
-# Welcome to your Expo app 👋
+# Welcome to Utepils 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
+That will show you the best places to have your utepils based on the weather and the sky position of the sun
 ## Get started
 
 1. Install dependencies
