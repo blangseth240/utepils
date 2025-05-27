@@ -25,7 +25,7 @@ jobs:
         run: npx expo login -u ${{ secrets.EXPO_USERNAME }} -p ${{ secrets.EXPO_PASSWORD }}
 
       - name: Build Expo App
-        run: npx expo build:android --no-wait # or `expo build:ios`
+        run: npx eas build -p android --non-interactive # or `expo build:ios`
 
       - name: Deploy to Expo
         run: npx expo publish
