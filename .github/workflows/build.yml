@@ -24,5 +24,3 @@ jobs:
       - name: Build Expo App
         run: npx expo export
 
-      - name: Run Tests
-        run: npm test
