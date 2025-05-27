@@ -21,11 +21,14 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Install EAS CLI
+        run: npm install -g eas-cli
+
       - name: Expo Login
         run: npx expo login -u ${{ secrets.EXPO_USERNAME }} -p ${{ secrets.EXPO_PASSWORD }}
 
       - name: Build Expo App
-        run: npx eas build -p android --non-interactive # or `expo build:ios`
+        run: npx eas build -p android --non-interactive # Use EAS Build instead
 
       - name: Deploy to Expo
         run: npx expo publish
